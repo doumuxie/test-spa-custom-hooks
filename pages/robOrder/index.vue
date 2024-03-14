@@ -21,8 +21,8 @@ export default {
 			]
 		}
 	},
-  onTokenLoad(){
-    console.log("onTokenLoad 触发")
+  onToken(){
+    console.log("Token 触发")
     this.log()
   },
 	methods: {

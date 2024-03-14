@@ -17,8 +17,8 @@ app.$mount()
 Vue.prototype.$store = store
 import CustomHook from 'spa-custom-hooks';
 const diyHooks = {
-  'TokenLoad':{
-    name:'TokenLoad',
+  'Token':{
+    name:'Token',
     watchKey: ['token'],
     deep: true,
     onUpdate(val){
