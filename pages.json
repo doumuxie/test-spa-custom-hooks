@@ -1,0 +1,57 @@
+{
+	"easycom": {
+		"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/robOrder/index",
+			"style": {
+				"navigationBarTitleText": "等待报价"
+			}
+		},
+		{
+			"path": "pages/order/index",
+			"style": {
+				"navigationBarTitleText": "供应商订单"
+			}
+		},
+		{
+			"path": "pages/mine/index",
+			"style": {
+				"navigationBarTitleText": "供应商主页"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#fff",
+		"backgroundColor": "#fff"
+	},
+	"uniIdRouter": {},
+	"tabBar": {
+	  "color": "#999",
+	  "selectedColor": "#1afa29",
+	  "borderStyle": "white",
+	  "backgroundColor": "white",
+	  "list": [{
+	      "pagePath": "pages/robOrder/index",
+	      "text": "抢单",
+	      "iconPath": "static/qiang.png",
+	      "selectedIconPath": "static/qiang-select.png"
+	    },
+	    {
+	      "pagePath": "pages/order/index",
+	      "text": "订单",
+	      "iconPath": "static/order.png",
+	      "selectedIconPath": "static/order-select.png"
+	    },
+	    {
+	      "pagePath": "pages/mine/index",
+	      "text": "我的",
+	      "iconPath": "static/mine.png",
+	      "selectedIconPath": "static/mine_select.png"
+	    }
+	  ]
+	}
+}
